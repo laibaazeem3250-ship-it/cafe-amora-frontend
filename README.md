@@ -33,10 +33,13 @@ cafe-amora-frontend/
 ├── menu.html
 ├── gallery.html
 ├── contact.html
+
 ├── css/
 │ └── style.css
+
 ├── js/
 │ └── 1st.js
+
 └── images/
 ├── blueberry-cheese-cake.jpg
 ├── cafe.jpeg
