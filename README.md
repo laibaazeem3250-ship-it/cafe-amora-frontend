@@ -45,7 +45,7 @@ cafe-amora-frontend/
 ├── cafe.jpeg
 ├── coffee.jpg
 ├── cake-pic1.jpg
-├── cake-pic1.jpg
+├── cake-pic2.jpg
 
 ---
 
