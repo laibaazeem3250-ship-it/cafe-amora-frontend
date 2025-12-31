@@ -1,0 +1,210 @@
+/* ---------- Café Amora CSS ---------- */ 
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #FFF8F0;
+  color: #2C2C2C;
+  line-height: 1.6;
+} 
+
+ /* Navbar  */
+header {
+  background-color: #6F4E37;
+  color: #FFF8F0;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #FFF8F0;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #D4A373;
+}
+
+ /* Hero Section  */
+.hero {
+  background: url("cafe.jpeg") center center no-repeat;   
+  background-size: cover;
+  height: 90vh;           
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fffaf5;
+  position: relative; 
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3); 
+}
+ 
+
+.hero h1, .hero p {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.5s ease;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #D4A373, #b07a52);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Content Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #6F4E37;
+  margin-bottom: 20px;
+}
+
+/* Menu grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #F5E6CC; 
+  padding: 40px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.menu-item i,
+section p i {
+  color: #6F4E37;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;       
+  height: 280px;      
+  object-fit:cover;  
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: all 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #D4A373;
+  box-shadow: 0 0 5px #D4A373;
+  outline: none;
+}
+
+button {
+  background-color: #6F4E37;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #D4A373;
+}
+
+/* Footer */
+footer {
+  background-color: #6F4E37;
+  color: #FFF8F0;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  margin-top: 120px;
+} 
+     
