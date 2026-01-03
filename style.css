@@ -203,10 +203,10 @@ footer {
   color: #FFF8F0;
   text-align: center;
   padding: 15px 0;
-  margin-top: 40px;
+  margin-top: 60px;   /* keep only one */
   font-size: 14px;
-  margin-top: 120px;
-} 
+}
+
 /* =========================
    Responsive Design (Mobile)
 ========================= */
@@ -214,24 +214,47 @@ footer {
 @media (max-width: 768px) {
 
   body {
-    font-size: 16px;
+    font-size: 15px;
   }
 
-  header, nav {
-    text-align: center;
+  /* Header fix */
+  header {
+    padding: 15px 10px;
+    height: auto;
   }
 
+  /* Navigation */
   nav ul {
     flex-direction: column;
+    gap: 8px;          /* Reduced space */
     padding: 0;
+    margin: 0;
   }
 
   nav ul li {
-    margin: 10px 0;
+    margin: 0;         /* Remove extra spacing */
   }
 
-  .container {
-    width: 95%;
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  /* Hero fix for mobile */
+  .hero {
+    height: 60vh;      /* reduced from 90vh */
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 40px 15px;
   }
 
   img {
@@ -243,12 +266,20 @@ footer {
 /* Small screens */
 @media (max-width: 480px) {
 
-  h1 {
+  header h1 {
     font-size: 24px;
   }
 
+  nav ul li a {
+    font-size: 14px;
+  }
+
   h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .hero {
+    height: 55vh;
   }
 
   button {
@@ -257,4 +288,6 @@ footer {
 }
 
 
+
      
+
