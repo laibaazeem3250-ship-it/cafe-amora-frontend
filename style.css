@@ -213,81 +213,26 @@ footer {
 
 @media (max-width: 768px) {
 
-  body {
-    font-size: 15px;
-  }
-
-  /* Header fix */
   header {
-    padding: 15px 10px;
-    height: auto;
+    padding: 10px 0;
   }
 
-  /* Navigation */
   nav ul {
-    flex-direction: column;
-    gap: 8px;          /* Reduced space */
-    padding: 0;
-    margin: 0;
-  }
-
-  nav ul li {
-    margin: 0;         /* Remove extra spacing */
-  }
-
-  nav ul li a {
-    font-size: 16px;
-  }
-
-  /* Hero fix for mobile */
-  .hero {
-    height: 60vh;      /* reduced from 90vh */
-    padding: 20px;
-  }
-
-  .hero h1 {
-    font-size: 30px;
-  }
-
-  .hero p {
-    font-size: 15px;
-  }
-
-  section {
-    padding: 40px 15px;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* Small screens */
-@media (max-width: 480px) {
-
-  header h1 {
-    font-size: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 
   nav ul li a {
     font-size: 14px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  .hero {
-    height: 55vh;
-  }
-
-  button {
-    width: 100%;
+    padding: 6px 8px;
   }
 }
 
-
-
-     
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: 13px;
+  }
+}
 
