@@ -9,7 +9,7 @@
 
 ## 📸 Screenshots
 
-✅ ![Home](home.png)
+![Home](home.png)
 
 ---
 
