@@ -9,11 +9,9 @@
 
 ## 📸 Screenshots
 
-| Page | Preview |
-|------|---------|
-| Home | ![Home](screenshots/home.png) |
-| Menu | ![Menu](screenshots/menu.png) |
-| Gallery | ![Gallery](screenshots/gallery.png) |
+✅ ![Home](home.png)
+✅ ![Menu](menu.png)
+✅ ![Gallery](gallery.png)
 
 ---
 
