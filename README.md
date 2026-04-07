@@ -10,8 +10,6 @@
 ## 📸 Screenshots
 
 ✅ ![Home](home.png)
-✅ ![Menu](menu.png)
-✅ ![Gallery](gallery.png)
 
 ---
 
