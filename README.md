@@ -2,7 +2,7 @@
 
 > A responsive multi-page café website built as a 1st semester project — 
 > featuring clean UI design, image gallery, and live deployment on GitHub Pages.
-
+> 
 🔗 **Live Demo:** [Visit Cafe Amora](https://laibaazeem3250-ship-it.github.io/cafe-amora-frontend/)
 
 ---
